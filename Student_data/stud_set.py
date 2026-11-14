@@ -4,15 +4,15 @@ import pandas as pd
 # Creating a fictional student dataset
 data = {
     "Student ID": [
-        "ST001", "ST002", "ST003", "ST004", "ST005",
-        "ST006", "ST007", "ST008", "ST009", "ST010"
+        "26/3459", "23/9865", "22/2958", "24/3455", "23/3467",
+        "23/3075", "21/5674", "20/3789", "23/0094", "21/4329"
     ],
 
     "Department": [
-        "Computer Science", "Mathematics", "Physics",
-        "Computer Science", "Statistics", "Biology",
-        "Physics", "Computer Science", "Statistics",
-        "Mathematics"
+        "Cocis", "CASMASS", "COHEALTHS",
+        "COCIS", "COMED", "COCOM",
+        "COCOM", "COPAS", "CASMAS",
+        "COLENSMA"
     ],
 
     "Level": [
@@ -25,9 +25,9 @@ data = {
         88, 70, 92, 80, 96
     ],
 
-    "Average Examination Score": [
-        75, 82, 68, 90, 73,
-        85, 60, 88, 70, 94
+    "Cumulative Grade Point Average": [
+        5.0, 2.0, 4.0, 3.50, 4.84,
+        5.0, 3.94, 2.45, 4.76, 4.23
     ]
 }
 
@@ -35,4 +35,5 @@ data = {
 df = pd.DataFrame(data)
 
 # Display the dataset
+print(df)
 print(df)
